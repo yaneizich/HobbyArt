@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Spectral+SC:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/styles/style.css">
     <title>HobbyArt</title>
 </head>
 <body>
-
+    <div class="wrapper">
+        <div class="section--form form">
+            <div class="container--close">
+                <a href="#" class="close"></a>
+            </div>
+            <div class="form--description">
+                <h2 class="form--description--title">Войти в личный кабинет</h2>
+                <div class="form--description--inner">
+                    <input placeholder="Номер телефона" type="tel" name="Number" id="">
+                    <input placeholder="Пароль" type="password" name="password" id="">
+                </div>
+                <div class="form--description--checkbox checkbox">
+                    <label for="" class="checkbox--remember">Запомнить меня</label>
+                    <input class="checkbox--check" type="checkbox" name="remember" id="">
+                </div>
+                <div class="form--description--forget-inner">
+                    <button class="form--description--submit" type="submit">Войти</button>
+                    <a class="form--description--forget--link" href="#">Забыли пароль?</a>
+                </div>
+                <div class="linebar"></div>
+                <h4 class="form--description--registration-title">Вы еще не зарегистрированы?</h4>
+                <div class="form--description--registration--inner">
+                    <a class="form--description--registration-link" href="">регистрация</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
